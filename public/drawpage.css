@@ -1,0 +1,81 @@
+.wrapper{
+  display: table;
+  width:480px;
+  height:540px;
+  border: 1px solid #797979;
+}
+
+.recommend{
+  width: 100%;
+  height: 10%;
+  background-color:#9BBBD4;
+}
+
+.recommend > div{
+  width: 100%;
+  height: 10%;
+  color: #556677;
+  /*가로기준 10vw는 1%*/
+  font-size: 2.5vw;
+  font-weight: bold;
+  /* 폰트 적용 안됨 */
+  font-family: Britannic;
+
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.image_table{
+  display: table-row;
+}
+
+.image_container{
+  display: table-cell;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  border: 1px solid #797979;
+}
+
+.image_container img{
+  width: 160px;
+  height: 160Spx;
+}
+
+.draw{
+  width:100%;
+  height:352.5px;
+  background-color:#F0F0F0;
+  position:relative;
+}
+
+.buttons{
+  display: table-row;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  border-spacing: 15px 0px;
+  margin-bottom: 20px;
+}
+
+.buttons > div{
+  display: table-cell;
+  height: 50px;
+  width: 50px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid #797979;
+}
+.send{
+  background: url( "send.png" ) no-repeat;
+    background-size: contain;
+}
+.trash{
+  background: url( "trash.png" ) no-repeat;
+    background-size: contain;
+}
+.cancel{
+    background: url( "cancel.png" ) no-repeat;
+      background-size: contain;
+}

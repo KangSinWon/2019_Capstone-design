@@ -13,7 +13,7 @@ def folder_list(file_path):
         data_folder_list = os.listdir(data_folder_path)
         data_folder_list.sort()
         label_list.append(data_folder)
-
+        print(folder)
         #build fix folder
         target_path = '/home/mll/Capstone/fix_image_set'
         print("{} to {} dataset...".format(target_path, data_folder))

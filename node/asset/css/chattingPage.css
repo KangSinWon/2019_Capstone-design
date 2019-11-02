@@ -1,0 +1,178 @@
+.backgroundDiv{
+  width: 2040px;
+  height: 1080px;
+  border : 1px solid black;
+  background-color: #f0f0f0;
+
+}
+.headerDiv{
+  height: 10%;
+  background-color: #9bbbd4;
+  border:1px solid #bcbcbc;
+}
+.logoDiv{
+  width: 25px;
+  height: 25px;
+  margin-left: 3%;
+  display: inline;
+  background: url( "conversationLogo.png" ) no-repeat;
+  background-size: contain;
+}
+.headerText{
+  display: inline;
+  font-size: 15px;
+
+  margin-left: 5%;
+}
+.containerDiv{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.chat_Log{
+  width: 50%; /*960px*/
+  height:200px;
+  background-color: #9bbbd4;
+  border:1px solid #bcbcbc;
+  min-width: 40%;
+}
+.chatFormat{
+  width: 41%; /*960px*/
+  min-width: 40%;
+  font-size: 5px;
+  margin-bottom: 5%;
+  background-color: white;
+
+
+  /* display: inline; */
+  /* vertical-align: 50%; */
+}
+.name{
+  width: 15%;
+  vertical-align: middle;
+}
+.message{
+  width:50%;
+  vertical-align: middle;
+}
+.chat{
+  width:15%;
+  height: 20px;
+  font-size:7px;
+  color: #ffffff;
+  background-color: #BBBBBB;
+  border: 1px solid #7F7F7F;
+  border-radius: 6px;
+  vertical-align: middle;
+  /* float: right; */
+  /* float: right; */
+}
+/* 접속 알림 */
+.connect {
+  width: 90%;
+  margin: auto;
+  background-color: aquamarine;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* 접속 종료 알림 */
+.disconnect {
+  width: 90%;
+  margin: auto;
+  background-color: indianred;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* 내가 보낸 메시지 */
+.me {
+  width: 90%;
+  margin: auto;
+  background-color: lemonchiffon;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* 상대방이 보낸 메시지 */
+.other {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.skatchStart{
+  width:7%;
+  height: 20px;
+  border: 0px solid #7F7F7F;
+  background: url( "photoPlus.png" ) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+float: right;
+  /* font-size:7px; */
+}
+
+
+.wrapper{
+  display: table;
+  width:960px;
+  height:1080px;
+  border: 1px solid #797979;
+}
+
+.recommend{
+  width: 100%;
+  height: 50px;
+  background:#9BBBD4;
+}
+
+.recommend > div{
+  width: 300px;
+  height: 50px;
+  color: #556677;
+  font-size: 28px;
+  font-weight: bold;
+  /* 폰트 적용 안됨 */
+  font-family: Britannic;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_table{
+  display: table-row;
+}
+
+.image_container{
+  display: table-cell;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  border: 1px solid #797979;
+}
+
+.image_container img{
+  width: 320px;
+  height: 320px;
+}
+
+.draw{
+  width:100%;
+  height:705px;
+  background-color:white;
+  position:relative;
+}
+
+@media (max-width: 960px){
+  .backgroundDiv{
+    width: auto;
+    height: auto;
+  }
+  .chat_Log{
+      float: none;
+      width: auto;
+    }
+}
