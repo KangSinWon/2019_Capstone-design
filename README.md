@@ -15,7 +15,7 @@
 또 사람들의 그림 실력에 상관없이 스케치만으로도 사용자가 원하는 이미지를 생성하여 전달할 수 있습니다.  
 
 ### 1.3 Mockup
-<img width=90% src="https://user-images.githubusercontent.com/36693355/67351280-1351dc00-f588-11e9-862a-beae08314988.jpg"/>
+<img width=90% src="https://user-images.githubusercontent.com/36693355/68592708-08c79a00-04d7-11ea-9d62-0c0c44e37aac.jpg"/>
 
 ### 1.4 특징
 1. 구글 Quick Draw 오픈소스 데이터를 활용

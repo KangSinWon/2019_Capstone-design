@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link rel="stylesheet" href="../public/drawpage.css">
+  <head>
+    <meta charset="utf-8">
+    <title>draw page</title>
+  </head>
+  <body>
+    <div class='wrapper'>
+       <div class='top'>
+           <div class='recommend'>
+             <div class="text_recommend">
+               Recommend
+             </div>
+           </div>
+
+           <div class="image_table">
+             <div id='recommend1' class='image_container' onclick="recommend_clicked(1);">
+               <img src="resource/test_image1.png">
+             </div>
+             <div id='recommend2' class='image_container' onclick="recommend_clicked(2);">
+               <img src="resource/test_image2.png">
+             </div>
+             <div id='recommend3' class='image_container' onclick="recommend_clicked(3);">
+               <img src="resource/test_image3.png">
+             </div>
+           </div>
+       </div>
+       <div class="draw">
+         <!-- canvas -->
+         <canvas id="canvas" width="960px" height="705px"></canvas>
+         <div class="buttons">
+<<<<<<< HEAD:FrontEnd/draw_page/draw.html
+           <input onclick="button_clicked(0);" type="button" class="send_button">
+           <input onclick="button_clicked(1);" type="button" class="trash_button">
+           <input onclick="button_clicked(2);" type="button" class="cancel_button">
+=======
+           <div class="send">send</div>
+             <button id="trash_b"onclick="clearCanvas()">delete</button>
+
+           <div class="cancel">cancel</div>
+
+
+>>>>>>> dev_heo:node/asset/FrontEnd/draw.html
+         </div>
+       </div>
+
+    </div>
+    <script src="canvas.js"></script>
+  </body>
+</html>
